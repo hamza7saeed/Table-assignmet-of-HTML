@@ -1,0 +1,40 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>Admission Form</title>
+  </head>
+  <body>
+    <h1>Admission Form</h1>
+    <lable for = "">First Name: </lable><input type = "Text" placeholder="Enter your first name">
+    <br>
+    <lable for ="">Last Name: </lable><input type="Text"placeholder = "Enter your last name">
+      <br>
+        <lable for = "">Gender: </lable>
+        <lable for  = "male">Male</lable>
+          <input id = "male" type="radio"name="gender">
+            <lable for = "female">female</lable>
+            <input id = "female" type = "radio"name ="gender">
+            <br>
+              <lable for=""> Email: </lable>
+              <input type = "email">
+                <br>
+                  <lable for = "">Your qualifaction: <lable>
+                    <lable for = "Inter">Inter</lable>
+                    <input id = "Inter" type = "checkbox"name = "Your qualifaction">
+                      <lable for ="Bachelor">Bachelor</lable>
+                      <input id = "Bachelor" type ="checkbox"name = "Your qualifaction">
+                        <lable for = "Master">Master</lable>
+                        <input id = "Master" type = "checkbox"name = "Your qualifaction">
+                          <br>
+                            <lable for = ""> Date-of-Birth(DOB): </lable>
+                            <input type = "date">
+                           <br>
+                             <lable for = "">Permanent address: </lable>
+                       <textarea name= ""id=""cols="40"rows="3">
+                       
+                               
+                  
+                  
+              
+  </body>
+  </html>
